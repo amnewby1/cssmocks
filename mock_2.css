@@ -1,0 +1,107 @@
+.button {
+    margin: auto;
+    text-align: center;
+}
+
+.signup {
+    height: 100px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 2.5em;
+    background-color: rgb(113, 206, 239);
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.signup:hover {
+    cursor: pointer;
+    background-color: rgb(12, 62, 103);
+}
+
+.cat {
+    width: 30%;
+    border: 1px solid rgb(164, 181, 198);
+    margin: 0 auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgb(164, 181, 198);
+    background-color: rgb(238, 233, 233) ;
+}
+
+.cat_image {
+    background-image: url('https://sadanduseless.b-cdn.net/wp-content/uploads/2017/06/blep-cat2.jpg');
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50%;
+    border-radius: 6px 6px 0 0;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0 auto;
+}
+.words {
+    font-size: 14px;
+    padding: 15px;
+    border-top: 1px solid rgb(164, 181, 198);
+    border-radius: 0 0 6px 6px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture {
+    background-color: peachpuff;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 8px solid peachpuff;
+    border-radius: 6px;
+    position: relative;
+}
+
+.picture-wrapper {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    border-radius: 6px;
+    background-size: cover;
+}
+
+.pic1 {
+    background-image: url('https://media4.giphy.com/media/gPHyNpfWv3eow/giphy.gif?cid=ecf05e47659bkssw9hv2jsr9i4k88lo3zrrj5yp08ksqxv7p&rid=giphy.gif&ct=g');
+    background-size: cover;
+}
+
+.pic2 {
+    background-image: url('https://media3.giphy.com/media/Y8bL4lil6jive/giphy.gif?cid=ecf05e47f26sv0jxiacxf7dqc3ktohyf9veno1i295kgllxv&rid=giphy.gif&ct=g');
+    background-size: cover;
+}
+
+.pic3 {
+    background-image: url('https://media3.giphy.com/media/hmVVRM1uV7vYA/giphy.gif?cid=ecf05e47c6duflezxbh4xhpvjres3apzqd1g62w0osz9kz61&rid=giphy.gif&ct=g');
+    background-size: cover;
+}
+
+.picwords {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    transition: top 0.6s;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.picture:hover .picwords {
+    top:0;
+}
